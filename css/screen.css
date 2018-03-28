@@ -33,7 +33,7 @@
     Global page styles + universal box-sizing:
 */
 
-/* Globale font... */
+/* Globale font gewoon voraan zetten bij font family */
 
 html {
     font-size: 16px;
@@ -356,6 +356,27 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+    height: 32px;
+}
+
+.c-logo__symbol {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .c-logow {
+        height: 40px;
+    }
+}
+
 
 /*------------------------------------*\
   #UTILITIES
